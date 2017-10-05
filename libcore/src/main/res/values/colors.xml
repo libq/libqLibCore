@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_activity">#f7f7f7</color>
+    <color name="bg_title_bar">@color/main_color</color>
+    <color name="bg_title_bar_pressed">@color/main_color_press</color>
+    <color name="black">#000000</color>
+    <color name="black_d">#4C4C4C</color>
+    <color name="blue">#0000FF</color>
+    <color name="blur">#77000000</color>
+    <color name="gray">#888888</color>
+    <color name="gray_d">#9B9B9B</color>
+    <color name="gray_press">#e5e5e5</color>
+    <color name="green">#00FF00</color>
+    <color name="image_indicator_normal">@color/gray</color>
+    <color name="image_indicator_selected">@color/main_color</color>
+    <color name="main_color">#FB6F08</color>
+    <color name="main_color_press">#ffcc66</color>
+    <color name="orange">#FFA500</color>
+    <color name="red">#FF0000</color>
+    <color name="stroke">@color/stroke_deep</color>
+    <color name="stroke_deep">#e5e5e5</color>
+    <color name="text_content">#999999</color>
+    <color name="text_content_deep">#777777</color>
+    <color name="text_hint">#cbcbcb</color>
+    <color name="text_item_content">#a8a8a8</color>
+    <color name="text_item_content_deep">@color/text_content_deep</color>
+    <color name="text_item_title">@color/text_title</color>
+    <color name="text_title">#555555</color>
+    <color name="text_title_bar">@color/white</color>
+    <color name="transparent">#00000000</color>
+    <color name="violet">#EE82EE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+
+</resources>

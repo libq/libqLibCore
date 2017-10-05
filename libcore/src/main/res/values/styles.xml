@@ -1,0 +1,41 @@
+<resources>
+    <style name="ThemeLibCore" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorAccent">@color/main_color</item>
+    </style>
+    <style name="anim_bottom_bottom" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_sliding_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit_sliding_to_bottom</item>
+    </style>
+    <style name="anim_right_right" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_sliding_from_right</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit_sliding_to_right</item>
+    </style>
+    <style name="anim_top_top" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_sliding_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit_sliding_to_top</item>
+    </style>
+    <style name="dialogBase" parent="dialogLibCore">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="dialogBaseBlur" parent="dialogBase">
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="dialogLibCore" parent="@android:style/Theme.DeviceDefault.Dialog">
+    </style>
+</resources>

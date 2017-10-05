@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner">5dp</dimen>
+    <dimen name="height_button">45dp</dimen>
+    <dimen name="height_dialog_item">45dp</dimen>
+    <dimen name="height_dialog_progress">70dp</dimen>
+    <dimen name="height_edit">45dp</dimen>
+    <dimen name="height_title_bar">46dp</dimen>
+    <dimen name="height_title_item_image">25dp</dimen>
+    <dimen name="picker_default_text_size">12sp</dimen>
+    <dimen name="picker_dialog_height">190dp</dimen>
+    <dimen name="picker_height">230dp</dimen>
+    <dimen name="picker_line_mar">15dp</dimen>
+    <dimen name="picker_line_width">1dp</dimen>
+    <dimen name="picker_toolbar_height">40dp</dimen>
+    <dimen name="text_content">13sp</dimen>
+    <dimen name="text_dialog_button">14sp</dimen>
+    <dimen name="text_dialog_title">16sp</dimen>
+    <dimen name="text_item_content">12sp</dimen>
+    <dimen name="text_item_title">15sp</dimen>
+    <dimen name="text_sub_title_bar">16sp</dimen>
+    <dimen name="text_title">16sp</dimen>
+    <dimen name="text_title_bar">18sp</dimen>
+    <dimen name="textview_default_padding">5dp</dimen>
+    <dimen name="width_stroke">1px</dimen>
+    <dimen name="width_title_item">45dp</dimen>
+    <dimen name="width_title_item_image">25dp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
+    <declare-styleable name="FlowLayout"><attr format="dimension" name="horizontalSpacing"/><attr format="dimension" name="verticalSpacing"/><attr format="enum" name="orientation">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr><attr format="boolean" name="debugDraw"/></declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams"><attr format="boolean" name="layout_newLine"/><attr format="dimension" name="layout_horizontalSpacing"/><attr format="dimension" name="layout_verticalSpacing"/></declare-styleable>
+    <declare-styleable name="SDRatingBar"><attr format="reference" name="progressDrawable"/></declare-styleable>
+    <declare-styleable name="SlidingDrawer"><attr name="s_orientation">
+
+        　　            <enum name="horizontal" value="0"/>
+
+        　　            <enum name="vertical" value="1"/>
+
+        　　</attr><attr format="reference" name="s_content"/><attr format="reference" name="s_handle"/><attr format="dimension" name="s_bottomOffset"/><attr format="dimension" name="s_topOffset"/><attr format="boolean" name="s_allowSingleTap"/><attr format="boolean" name="s_animateOnClick"/>
+    </declare-styleable>
+</resources>
